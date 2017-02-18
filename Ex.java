@@ -2,6 +2,9 @@ public class Example
 {
     public static void main(string[] args)
     {
-         System.out.println("I will through Rohit Sharma's phone from terrace");
+        for(int i = 0; i < 500; i++)
+        {
+            System.out.println("Stupid wadhwa is stupid\n");
+        }
     }
 }
