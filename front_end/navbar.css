@@ -1,0 +1,21 @@
+/* _______________________ NAVBAR _________________________*/
+
+.navbar {
+    background: #3F51B5;
+    height: 80px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-family: 'Kranky';
+    letter-spacing: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.500);  /*h-shadow v-shadow blur spread color */
+}
+
+h1{
+	text-transform: uppercase;
+	text-align: center;
+  	color: #FFFFFF;
+}
