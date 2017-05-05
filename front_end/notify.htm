@@ -5,7 +5,7 @@
     <title>NOTI-FY</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">	<!-- viewport varies with the device, and will be smaller on a mobile phone than on a computer screen; webpage scaling; initial-scale is for zoom level -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mogra|Rye|Kranky" >
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mogra|Rye|Kranky|Pacifico|Satisfy" >
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 
@@ -30,7 +30,7 @@
 <style type="text/css">
 
 	body {
-		background: #FFFFFF;
+		background: #262626;
 	}
 
 </style>
@@ -55,30 +55,30 @@
 <div class="hover-button">
 	<div class="container">
 		<div class="row">
-	      <div class="col-md-0 col-md-offset-0">
-	        <div class="material-button-anim">
-	          <ul class="list-inline" id="options">
-	            <li class="option">
-	              <button class="material-button option1" type="button" data-toggle="tooltip" data-placement="left" title="New" onclick="fun_create()">
-	                <span class="fa fa-pencil" aria-hidden="true"></span>
-	              </button>
-	            </li>
-	            <li class="option">
-	              <button class="material-button option2" type="button" data-toggle="tooltip" title="Delete">
-	                <span class="fa fa-trash" aria-hidden="true"></span>
-	              </button>
-	            </li>
-	            <li class="option">
-	              <button class="material-button option3" type="button" data-toggle="tooltip" title="Theme">
-	                <span class="fa fa-paint-brush" aria-hidden="true"></span>
-	              </button>
-	            </li>
-	          </ul>
-	          <button class="material-button material-button-toggle" data-toggle="tooltip" type="button">
-	            <span class="fa fa-arrow-up" aria-hidden="true"></span>
-	          </button>
-	        </div>
-	      </div>
+			<div class="col-md-0 col-md-offset-0">
+				<div class="material-button-anim">
+					<ul class="list-inline" id="options">
+						<li class="option">
+							<button class="material-button option1" type="button" data-toggle="tooltip" data-placement="left" title="New" onclick="fun_create()">
+								<span class="fa fa-pencil" aria-hidden="true"></span>
+							</button>
+						</li>
+						<li class="option">
+							<button class="material-button option2" type="button" data-toggle="tooltip" title="Delete">
+								<span class="fa fa-trash" aria-hidden="true"></span>
+							</button>
+						</li>
+						<li class="option">
+							<button class="material-button option3" type="button" data-toggle="tooltip" title="Theme">
+								<span class="fa fa-paint-brush" aria-hidden="true"></span>
+							</button>
+						</li>
+					</ul>
+					<button class="material-button material-button-toggle" data-toggle="tooltip" type="button">
+						<span class="fa fa-arrow-up" aria-hidden="true"></span>
+					</button>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
@@ -91,12 +91,12 @@
             <li>
 	            <form>
 	                <div class="rotate-1 lazur-bg" class = "form-group" id = "div_notes">
-	                    <input type="textarea" class = "form-control" id = "text_area">
-	                    <br>
-	                    <button onclick="fun_submit()" class = "btn btn-default" id = "submit" align = "center">Submit</button> 
+	                    <textarea class = "form-control" id = "text_area" rows="5" cols="50"></textarea>
+	                    <br id = "brr">
+	                    <button onclick="fun_submit()" class = "btn btn-default" id = "submit">Save</button> 
 	                </div>
                 </form>
-            </li>   
+            </li>
         </ul>
     </div>
 </div>
