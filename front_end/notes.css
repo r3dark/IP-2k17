@@ -21,7 +21,7 @@ div.rotate-1 {
     -moz-transform: rotate(0deg);
 }
 
-.lazur-bg {
+div.note-bg {
     background-color: #FD4848;
     color: #FFFFFF;
 }
@@ -39,7 +39,7 @@ ul#notes_list li div {
     -webkit-transition: -webkit-transform 0.15s linear;
 }
 
-#div_notes {
+#div_id_count {
 	word-wrap: break-word;
 	overflow-x: hidden;
 }
