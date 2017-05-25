@@ -93,6 +93,12 @@ function function_create()
 	}
 	else if(flag == 1)
 	{
-		alert("Please save this note first !!!");
+		alert("Please save this note first!!!");
 	}
 }
+
+history.pushState(null, document.title, location.href);
+window.addEventListener('popstate', function (event)
+{
+  	history.pushState(null, document.title, location.href);
+});
