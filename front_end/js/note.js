@@ -93,7 +93,10 @@ function function_create()
 	}
 	else if(flag == 1)
 	{
-		alert("Please save this note first!!!");
+		swal({
+	  		title: "Please save this note first!",
+	  		type: "error",
+		});
 	}
 }
 

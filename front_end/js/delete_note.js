@@ -9,6 +9,9 @@ function function_delete_note()
 	}
 	else if(li_id_count == 0)
 	{
-		alert("Please enter at least 1 note!!");
+		swal({
+	  		title: "Please enter a Note!",
+	  		type: "error",
+		});
 	}
 }
