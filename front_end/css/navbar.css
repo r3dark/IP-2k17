@@ -14,8 +14,27 @@
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.500);  /*h-shadow v-shadow blur spread color */
 }
 
-h1{
+h1.heading-custom{
 	text-transform: uppercase;
 	text-align: center;
   	color: #FFFFFF;
+}
+
+button.btn-custom {
+    position: relative;
+    left: 38%;
+    border-radius: 4px;
+    margin-top: -5px;
+    background:#26A69A;
+    border-color: #262626;
+    color: white;
+    font-family: 'sofia', sans-serif;
+    font-size: 15px;
+}
+
+button.btn-custom:hover{
+    transition: all 500ms ease;
+    background: #00695C;
+    border-color: #262626;
+    color: white;
 }
