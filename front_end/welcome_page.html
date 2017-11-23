@@ -33,9 +33,11 @@
 			</div>
 			<!-- /.logo -->
 			<div class="controls">
-				<input type="text" name="username" placeholder="Username" class="form-control" />
-				<input type="password" name="username" placeholder="Password" class="form-control" />
-				<button type="button" class="btn btn-default btn-block btn-custom" onclick="location.href = 'notify.htm';">Let's Go!</button>
+				<form name = "wellForm" action="notify.htm" method="post">
+					<input type="text" name="username" placeholder="Username" class="form-control" required />
+					<input type="password" name="password" placeholder="Password" class="form-control" required />
+					<button type="submit" class="btn btn-default btn-block btn-custom">Let's Go!</button>
+				</form>
 			</div><!-- /.controls -->
 		</div><!-- /#login-box -->
 	</div><!-- /.container -->
